@@ -1,4 +1,6 @@
 # Chicago Neighborhood Lookup from Latitude & Longitude
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcraigmbooth%2Fchicago_neighborhood_finder.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcraigmbooth%2Fchicago_neighborhood_finder?ref=badge_shield)
+
 
 This code demonstrates how to take the shapefile provided on the City of Chicago Open Data Portal and converts it to a JSON file, with top-level keys named for each neighborhood, and associated values that give the latitude and longitude pairs corresponding to the neighborhood's boundaries.  For example:
 
@@ -54,3 +56,7 @@ In order to convert the StatePlane coordinates to latitudes and longitudes, the 
 On Mac OSX using Homebrew:
 
     brew install gdal
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcraigmbooth%2Fchicago_neighborhood_finder.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcraigmbooth%2Fchicago_neighborhood_finder?ref=badge_large)
